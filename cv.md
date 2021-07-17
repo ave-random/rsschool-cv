@@ -2,9 +2,9 @@
 
 _web developer_
 
-🤙 +375(29)343-61-84
-📧 <fiodorova.margarita96@gmail.com>
-💬 [Telegram](https://t.me/ave_random)
+- 🤙 +375(29)343-61-84
+- 📧 <fiodorova.margarita96@gmail.com>
+- 💬 [Telegram](https://t.me/ave_random)
 
 ## About me
 
@@ -43,7 +43,7 @@ Currently I'm learning _Node_ and _Express_ on my own.
 - **2019 - Minsk State Medical College** _(Nursing)_
 - **2013 - Lyceum of Belarusian National Technical University** _(Architecture)_
 
-## languages
+## Languages
 
 ---
 
