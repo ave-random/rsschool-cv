@@ -55,6 +55,7 @@ header {
   align-items: center;
 }
 
+article,
 section:not(:last-child) {
   border-bottom-style: solid;
   border-color: var(--light-blue);
