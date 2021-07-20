@@ -1,1 +1,1 @@
-https://ave-random.github.io/rsschool-cv/cv
+https://ave-random.github.io/rsschool-cv/
