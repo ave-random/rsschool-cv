@@ -40,7 +40,7 @@ header {
   flex-direction: column;
   align-items: center;
   margin-bottom: 1rem;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -59,9 +59,10 @@ header {
 
 .intro,
 section:not(:last-child) {
-  border-bottom: 1px solid transparent;
   border-image: var(--gradient);
   border-image-slice: 1;
+  border-bottom: 1px solid transparent;
+
 }
 
 main {
@@ -72,7 +73,7 @@ main {
 }
 
 .icon {
-  margin-right: 1rem;
+  margin-right: .6rem;
   font-size: 2rem;
   line-height: 3rem;
   background-image: var(--gradient);
@@ -155,11 +156,17 @@ a:active {
     width: 90vw;
     position: absolute;
   }
+  
+  .button {
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+  }
 
   main {
     margin-left: 0;
-    margin-top: 600px;
-    padding: 0 1.5rem;
+    margin-top: 590px;
+    padding: .5rem 1.8rem;
   }
 
   footer {
@@ -167,20 +174,29 @@ a:active {
   }
 }
 
-@media (max-width: 566px) {
+@media (max-width: 580px) {
   body {
     line-height: 1.8rem;
+  }
+
+  .intro,
+  section:not(:last-child) {
+  border-image: none;
+  border-color: white;
+}
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
   }
 
   .skills > li {
     display: flex;
     align-items: flex-start;
-    font-size: 13px;
   }
 
   .icon {
-    font-size: 1.6rem;
-    line-height: 2.5rem;
-    margin-right: 0.5rem;
+    display: none;
 }
 }
