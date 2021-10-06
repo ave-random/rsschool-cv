@@ -65,6 +65,16 @@ section:not(:last-child) {
 
 }
 
+nav {
+  /* background-color: rgb(236, 212, 241); */
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -185,13 +195,13 @@ a:active {
   border-color: white;
 }
 
-  .skills {
+  .skill-list {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
   }
 
-  .skills > li {
+  .skill-list > li {
     display: flex;
     align-items: flex-start;
   }
